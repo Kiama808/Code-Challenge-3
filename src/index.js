@@ -1,8 +1,8 @@
+
 // Wait for the DOM content to be fully loaded before executing the following code
 document.addEventListener("DOMContentLoaded", function() {
     // Retrieve a reference to the unordered list element with the id "films"
     const filmList = document.getElementById("films");
-
     // Define a function to fetch movie data from the server and populate the film list
     function fetchAndPopulateFilmList() {
         // Fetch movie data from the server endpoint
